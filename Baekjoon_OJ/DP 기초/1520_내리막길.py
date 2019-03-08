@@ -1,3 +1,7 @@
+# 가장 힘들었던 문제
+# 그냥 풀면 안되고 dp와 탐색을 적용해야함
+# 노드가 방문한 노드인지 체크해보기
+
 def solve(x, y, end_x, end_y):
     global map_
     global dp
