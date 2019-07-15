@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int gcd(int a, int b){
+int gcd(int a, int b) {
 	if (b == 0)
 		return a;
 	else
@@ -20,9 +20,7 @@ int main() {
 	cin >> tc;
 	for (int i = 0; i < tc; i++) {
 		cin >> a >> b;
-		int a_ = max(a, b);
-		int b_ = min(a, b);
-		cout << lcm(a, b) << endl;
+		cout << lcm(max(a, b), min(a, b)) << endl;
 	}
-	
+
 }
